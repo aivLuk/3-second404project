@@ -84,4 +84,64 @@ main {
   float: right;
 }
 
+@media (max-width: 1050px) {
+  main {
+    width: 700px;
+    margin-left: calc((100% - 700px) / 2);
+    margin-right: calc((100% - 700px) / 2);
+  }
 
+  section img {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    width: 570px;
+    margin-left: calc((100% - 570px) / 2);
+    margin-right: calc((100% - 570px) / 2);
+  }
+  section img {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 570px) {
+  main {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  header {
+    height: 220px;
+  }
+  header > img {
+    margin-left: calc((100% - 70px) / 2);
+    margin-right: calc((100% - 70px) / 2);
+    
+  }
+  header > nav {
+    width: 100%;
+    text-align: center;
+    
+  }
+  header > nav > a {
+    width: 100%;
+    margin-left: 0;
+    line-height: 30px;
+  }
+  .signin {
+    width: 35%;
+    
+  }
+
+  div {
+    width: 100%;
+    text-align: center;
+  }
+
+  section img {
+    width: 100%;
+  }
+}
